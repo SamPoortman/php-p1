@@ -10,7 +10,7 @@
     <?php include "dobbelsteen.php" ?>
 
     <p>het cijfer is <?php echo $dobbelsteen ?> </p>
-    <p><?php echo $resultaat</p>
+    <p><?php echo $resultaat ?></p>
 
 </body>
 </html>
