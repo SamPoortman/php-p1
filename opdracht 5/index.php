@@ -9,8 +9,8 @@
     <h1>dobbelsteen</h1>
     <?php include "dobbelsteen.php" ?>
 
-    <p>het cijfer is <?php echo $score ?> </p>
-    <p><?php echo $money</p>
+    <p>het cijfer is <?php echo $dobbelsteen ?> </p>
+    <p><?php echo $resultaat</p>
 
 </body>
 </html>
