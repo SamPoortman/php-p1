@@ -21,6 +21,14 @@
         <input type="submit" name="submit-form" value="toevoegen">
     </form>
 
-    
+    <?php
+    if(isset($_POST[submit_form])){
+        $name = $_POST['name'];
+        $stock = $_POST["stock"];
+        $available = $_POST["available"];
+
+        var_dump($name)
+    }
+    ?>
 </body>
 </html>
