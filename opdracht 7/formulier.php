@@ -12,13 +12,15 @@
 
         <label for="available">Ja</label>
         <input type="radio" id="available" name="available" value="ja">
-
         <label for="available">Nee</label>
         <input type="radio" id="available" name="available" value="nee">
 
         <label for="stock">Voorraad</label>
         <input type="number" id="stock" name="stock">
 
+        <input type="submit" name="submit-form" value="toevoegen">
     </form>
+
+    
 </body>
 </html>
