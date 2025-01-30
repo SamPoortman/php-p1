@@ -1,34 +1,19 @@
-<?php
-function rekensom($a, $b) {
-    return $a + $b;
-}
-
-$getal1 = 5;
-$getal2 = 10;
-$som = rekensom($getal1, $getal2);
-
-function isEven($getal) {
-    return $getal % 2 === 0;
-}
-
-$getalTeControleren = 7;
-$isEven = isEven($getalTeControleren);
-?>
-
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP Opdrachten</title>
+    <title>Opdracht 6</title>
 </head>
+
 <body>
-    <h1>Resultaten van de Opdrachten</h1>
 
-    <h2>Opdracht 1: Rekensom</h2>
-    <p>De som van <?php echo $getal1; ?> en <?php echo $getal2; ?> is: <?php echo $som; ?>.</p>
+<h1>Opdracht 1</h1>
+<?php include "dagdeel.php"; ?>
 
-    <h2>Opdracht 2: Even of Oneven</h2>
-    <p>Het getal <?php echo $getalTeControleren; ?> is <?php echo $isEven ? 'even' : 'oneven'; ?>.</p>
+<h1>Opdracht 2</h1>
+<?php include "opdracht2.php"?>
+
 </body>
+
 </html>

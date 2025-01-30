@@ -6,8 +6,8 @@
     <title>Vliegtuigen</title>
 </head>
 <body>
-    <form action="proces.php" method="POST">
-        <label for="name">naam vliegtuig</label>
+    <form action="process.php" method="POST">
+        <label for="name">Naam vliegtuig</label>
         <input type="text" id="name" name="name">
 
         <label for="available">Ja</label>

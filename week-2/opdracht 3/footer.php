@@ -1,3 +1,1 @@
-<footer>
-    <p>Sam Poortman</p>
-</footer>
+ <p>©Jayden Leoncio</p>

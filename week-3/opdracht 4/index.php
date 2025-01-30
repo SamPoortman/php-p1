@@ -1,12 +1,20 @@
-<?php
-$huidigeDatumTijd = date('Y-m-d H:i:s');
-$huidigeDatum = date('d-m-Y');
-$datumMorgen = date('Y-m-d', strtotime('+1 day'));
-$datumWeekGeleden = date('Y-m-d', strtotime('-1 week'));
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3</title>
+</head>
 
-echo "<h1>Datum Opdrachten</h1>";
-echo "<p>Opdracht A: Huidige datum en tijd: $huidigeDatumTijd</p>";
-echo "<p>Opdracht B: Huidige datum (dd-mm-jjjj): $huidigeDatum</p>";
-echo "<p>Opdracht C: Datum van morgen: $datumMorgen</p>";
-echo "<p>Opdracht D: Datum van een week geleden: $datumWeekGeleden</p>";
-?>
+<body>
+    <h1>Opdrachten week 3</h1>
+
+    <h2>Opdracht 1</h2>
+    <?php include "randNum.php"; ?>
+
+    <h2>Opdracht 2</h2>
+    <?php include "date.php"; ?>
+    
+</body>
+
+</html>
