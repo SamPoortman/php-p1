@@ -1,5 +1,4 @@
 <?php
-// Opdracht 1: Eenvoudige rekensom
 function rekensom($a, $b) {
     return $a + $b;
 }
@@ -8,7 +7,6 @@ $getal1 = 5;
 $getal2 = 10;
 $som = rekensom($getal1, $getal2);
 
-// Opdracht 2: Controleer of een getal even of oneven is
 function isEven($getal) {
     return $getal % 2 === 0;
 }
